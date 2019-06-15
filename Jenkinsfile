@@ -8,7 +8,7 @@ node('master')
     
     stage('Checkout code')
     {
-        git 'https://github.com/AshutoshKumar99/FastMaven.git'
+        git 'https://github.com/AshutoshKumar99/sajak.git'
     }
     
     stage('Build code')
